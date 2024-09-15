@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* ------------ HEADER ------------------ */
+
+
+.main-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 20px 7px 20px;
+}
+
+.menu-sx {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 27px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+#lens {
+    transform: translateX(30px);
+    font-size: 18px;
+}
+
+input {
+    height: 40px;
+    width: 250px;
+    border-radius: 25px;
+    border: none;
+    background-color: #f9f9f9;
+    padding-left: 40px;
+    outline: none;
+}
+
+.menu-dx {
+    display: flex;
+    align-items: center;
+    font-size: 21px;
+    gap: 28px;
+}
+
+.write {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.write span {
+    font-size: 15px;
+}
+
+.write ion-icon {
+    font-size: 25px;
+}
+
+.bell {
+    font-size: 25px;
+}
+
+.account {
+    font-size: 40px;
+    opacity: 1;
+}
+
+.account:hover {
+    opacity: 0.5;
+}
+
+.button {
+    opacity: 0.5;
+}
+
+.button:hover {
+    opacity: 1;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    font-size: 15px;
+}
+
+/* -------------- MAIN ------------ */
+
+
+.aree {
+    display: flex;
+    justify-content: center;
+}
+
+/* ------------- AREA 1 ------------ */
+
+
+.area1 {
+    padding: 50px 50px 5px 5px;
+    width: 715px;
+    border-right: solid 1px #d2cdcd;
+/*     margin-right: 60px;
+    background-color: aquamarine;
+ */}
+
+.sottomenu {
+    background-color: white;
+    white-space: nowrap;
+    /* overflow: hidden; */
+    display: flex;
+    gap: 25px;
+    margin-bottom: 5px;
+    border-bottom: solid 1px rgb(209, 205, 205);
+    font-size: 10pt;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.sottomenu a{
+    opacity: 0.5;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 15px;
+}
+
+.sottomenu a:hover {
+    opacity: 1;
+    border-bottom: solid 1px black;
+}
+
+.main-area1 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 37px;
+    margin-top: 50px;
+    border-bottom: solid 1px #d2cdcd;
+}
+
+/* ------------- AREA 1 SX ------------ */
+
+.area1-sx {
+    /* background-color: rgb(0, 149, 255); */
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.testo-area1-sx h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.testo-area1-sx p {
+    font-weight: lighter;
+}
+
+.area1-sx a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-area1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.footer-sx {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    gap: 10px;
+}
+
+.footer-dx {
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+    gap: 15px;
+}
+
+#stellina {
+    width: 12px;
+}
+
+/* ------------- AREA 1 DX ------------ */
+
+
+.area1-dx {
+    /* background-color: violet; */
+    width: 170px;
+    overflow: hidden;
+    align-content: space-around;
+}
+
+.area1-dx img {
+    height: 120px;
+    width: 170px;
+    object-fit: cover;
+}
+
+
+/* ------------- AREA 2 ------------ */
+
+.area2 {
+    width: 310px;
+    height: 1050px;
+    position: sticky;
+    top: -200px;
+    padding: 50px 0px 0px 25px;
+    /* background-color: brown; */
+}
+
+.contenitore {
+    /* background-color: antiquewhite; */
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.area2-1 {
+    gap: 10px;
+    padding-bottom: 40px;
+}
+
+.gruppo-nome-info {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    gap: 4px;
+}
+
+.contenitore a {
+    color: black;
+    text-decoration: none;
+}
+
+#see-list {
+    color: #1a8917;
+    font-size: 13px;
+}
+
+.gruppo-nome-info ion-icon {
+    font-size: 23px;
+}
+
+.argomenti h3 {
+    font-size: 16px;
+}
+
+.area2-2 {
+    gap: 18px;
+    padding-bottom: 40px;
+}
+
+.topics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.topics a {
+    margin-bottom: 5px;
+}
+
+.topics span {
+    background-color: #f2f2f2;
+    padding: 8px 10px 8px 10px;
+    border-radius: 50px;
+    font-size: 11px;
+}
+
+.who-to {
+    display: flex;
+    align-items: flex-start;
+    font-size: 13px;
+    gap: 15px;
+}
+
+.who-to ion-icon {
+    font-size: 23px;
+}
+
+.who-to p, .click-to-add {
+    font-weight: lighter;
+}
+
+#follow {
+    border: solid 1px black;
+    border-radius: 50px;
+    padding: 8px 10px 8px 10px;
+}
+
+.click-to-add ion-icon {
+    font-size: 15px;
+    transform: translateY(2px);
+}
+
+.footer-area2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-area2 a {
+    margin-bottom: 0px;
+}
+
+.footer-area2 span {
+    padding: 0px 10px 0px 0px;
+    font-size: 11px;
+}
+
+.area2-4 {
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+
