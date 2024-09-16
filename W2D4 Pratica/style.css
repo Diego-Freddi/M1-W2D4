@@ -86,13 +86,34 @@ input {
     opacity: 1;
 }
 
-.banner {
+.cont-banner {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
     padding: 10px;
     background-color: #f9f9f9;
     font-size: 15px;
+}
+
+.banner-close {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.banner-close ion-icon {
+    font-size: 30px;
+    opacity: 0.5;
+}
+
+.banner-close ion-icon:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.banner {
+    transform: translateX(-50%);
 }
 
 /* -------------- MAIN ------------ */
@@ -100,7 +121,9 @@ input {
 
 .aree {
     display: flex;
-    justify-content: center;
+/*     justify-content: center; */
+    width: 1106px;
+    margin: auto;
 }
 
 /* ------------- AREA 1 ------------ */
@@ -132,7 +155,7 @@ input {
     opacity: 0.5;
     text-decoration: none;
     color: black;
-    padding-bottom: 15px;
+    padding-block: 10px;
 }
 
 .sottomenu a:hover {
